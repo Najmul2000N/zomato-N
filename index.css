@@ -1,0 +1,1435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+ body{
+    height: 100%;
+    width: 100%;
+}
+.main-content{
+    height: 350px;
+    width: 100%;
+    background-color:  #ffffff80;
+    
+}
+.hero-section{
+    height: 100%;
+    background-image: url('assets/zomato.\ bg.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+nav{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(250, 56, 56);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+   padding: 3px 10px;
+    
+
+}
+
+.nav-btn>button{
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 25px;
+}
+.nav-btn>button:hover{
+    opacity: 0.6;
+}
+
+
+.hero-text>h1{
+    font-size: 40px;
+    font-weight: 800;
+    justify-self: center;
+    color:  red;
+}
+.hero-text>p{
+    font-size: 18px;
+    font-weight: 500;
+    justify-self: center;
+    color:  whitesmoke;
+}
+.search{
+    height: 30%;
+    padding: 5px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 15px;
+
+
+ 
+}
+.search-btn>select{
+    width: 30%;
+border-top: none;
+border-left: none;
+border-bottom: none;
+border-right: 2px solid black;
+font-size: 20px;
+margin: 2px 5px;
+
+
+}
+.search-btn>input{
+    width: 70%;
+border: none;
+font-size: 22px;
+border-radius: 25px;
+}
+
+.cart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px;
+}
+.cart-one{
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 15px;
+
+}
+.cart-one>img{
+width: 100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.cart-one>h3{
+    font-size: 18px;
+    padding: 5px;
+}
+.cart-one>p{
+    font-size: 15px;
+    padding: 5px;
+}
+.cart-two{
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 15px;
+
+}
+.cart-two>img{
+    width: 100%;
+     border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.cart-two>h3{
+    font-size: 18px;
+    padding: 5px;
+}
+.cart-two>p{
+    font-size: 15px;
+    padding: 5px;
+}
+.cart-three{
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.cart-three>img{
+    width: 100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.cart-three>h3{
+    font-size: 18px;
+    padding: 5px;
+}
+.cart-three>p{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.collections{
+    font-size: 12px;
+    width: 100%;
+    padding: 3px 10px;
+}
+.collection{
+    font-size: 14px;
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.img-cart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+    gap: 8px;
+    padding: 3px 13px;
+}
+.img-one{
+    width: 25%;
+}
+.img-one>img{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+
+   
+}
+.img-two{
+    width: 25%;
+}
+.img-two>img{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+.img-three{
+    width: 25%;
+}
+.img-three>img{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+.img-four{
+    width: 25%;
+}
+.img-four>img{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.location{
+    width: 100%;
+    font-size: 10px;
+    padding: 3px 15px;
+   
+}
+
+.location-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+  
+}
+.first-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.first-one{
+width: 90%;
+
+}
+.first-two{
+    width: 90%;
+}
+.first-three{
+    width: 90%;
+}
+.sec-one{
+    width: 90%;
+}
+.sec-two{
+    width: 90%;
+}
+.sec-three{
+    width: 90%;
+}
+.third-one{
+    width: 90%;
+}
+.third-two{
+    width: 90%;
+}
+.third-three{
+    width: 90%;
+}
+
+
+.second-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.third-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+.first-cart>div{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.second-cart>div{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.third-cart>div{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+
+
+
+.form{
+height: 650px;
+width: 100%;
+padding: 5px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+.form-img{
+    height: 50%;
+    width: 80%;
+    background-image: url('assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: center;
+ 
+}
+.form-text{
+width: 95%;
+height: 50%;
+justify-self: center;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+border-radius: 20px;
+background-color:#F8F8F8;
+padding-left:15px;
+
+}
+.text-one{
+width: 100%;
+}
+.text-one>h1{
+    font-size: 25px;
+    padding: 8px 5px;
+    color: red;
+}
+.text-one>p{
+    font-size: 17px;
+    padding: 8px 5px;
+}
+.email{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+gap: 10px;
+
+    padding: 8px 5px;
+}
+.email>input{
+    height: 50%;
+font-size: 12px;
+border-radius: 20px;
+}
+.email>button{
+    height: 45%;
+    font-size: 15px;
+    padding: 4px 7px;
+    border-radius: 20px;
+    color: blue;
+    border: none;
+}
+.email>button:hover{
+    opacity: 0.6;
+}
+.download{
+    width: 100%;
+}
+.download-btn>button{
+    color: red;
+    border: none;
+    border-radius: 15px;
+    padding: 4px 10px;
+}
+
+
+
+.options{
+    width: 100%;
+    padding: 10px 10px;
+}
+.options>h1{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.option-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.option-one{
+    border-radius: 15px;
+    padding: 8px 10px;
+    border: 1px solid black;
+
+}
+
+.option-two{
+    border-radius: 15px;
+    padding: 8px 10px;
+    border: 1px solid black;
+
+}
+
+.option-three{
+    border-radius: 15px;
+    padding: 8px 10px;
+    border: 1px solid black;
+
+}
+
+.option-four{
+    border-radius: 15px;
+    padding: 8px 10px;
+    border: 1px solid black;
+
+}
+
+footer{
+    background-color: #F8F8F8;
+}
+
+.last-section{
+padding: 5px 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.last-section>h1{
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+}
+.last-lan>select{
+    color: blueviolet;
+    font-size: 13px;
+    padding: 2px;
+    border-radius: 15px;
+
+}
+.last-list{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 5px;
+    padding: 8px;
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list1>ul>li{
+    text-transform: capitalize;
+    list-style: none;
+}
+.list1>ul>li>strong{
+color: blue;
+}
+.list2>ul>li{
+    text-transform: capitalize;
+    list-style: none;
+}
+.list2>ul>li>strong{
+    color: blue;
+    }
+.end-line{
+    padding: 10px;
+    font-size: 15px;
+    border-top: 1px solid gray;
+}
+
+
+
+
+
+@media (min-width: 475px){
+
+    .main-content{
+        height: 380px;
+        
+    }
+ 
+    nav{
+       
+        font-size: 28px;
+    }
+    
+    .nav-btn>button{
+        font-size: 15px;
+       
+    }
+
+    .hero-text>h1{
+        font-size: 45px;
+    }
+    .hero-text>p{
+        font-size: 20px;
+     
+    }
+    .search{
+        height: 40%;
+    }
+    
+ 
+    
+    .cart-one>h3{
+        font-size: 20px;
+    }
+    
+    .cart-two>h3{
+        font-size: 20px;
+    }
+   
+    .cart-three>h3{
+        font-size: 20px;
+    }
+    
+    
+    .collections{
+    
+        font-size: 15px;
+     
+    }
+   
+    .collection{
+        font-size: 17px;
+    }
+    
+
+    .img-one{
+        width: 25%;
+        height: 100%;
+    }
+    .img-one>img{
+        height: 100px;
+        width: 100%;
+        border-radius: 20px;
+    
+       
+    }
+    .img-two{
+        width: 25%;
+    }
+    .img-two>img{
+        height: 100px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .img-three{
+        width: 25%;
+    }
+    .img-three>img{
+        height: 100px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .img-four{
+        width: 25%;
+    }
+    .img-four>img{
+        height: 100px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .location{
+        width: 100%;
+        font-size: 10px;
+   
+    }
+    
+    .location-cart{
+        font-size: 15px;
+    }
+  
+    .form{
+    height: 700px;
+    width: 100%;
+    
+    }
+    .form-img{
+        height: 50%;
+        width: 60%;
+    }
+    .form-text{
+    width: 95%;
+    height: 40%;
+    
+    }
+    .text-one{
+    width: 100%;
+    }
+    .text-one>h1{
+        font-size: 25px;
+    }
+    .text-one>p{
+        font-size: 17px;
+        padding: 8px 5px;
+    }
+    .email{
+    
+        width: 100%;
+        height: 80px;
+    }
+    .email>input{
+        height: 50%;
+    font-size: 12px;
+    border-radius: 20px;
+    }
+    .email>button{
+        height: 45%;
+        font-size: 15px;
+        padding: 4px 7px;
+     
+    }
+    .email>button:hover{
+        opacity: 0.6;
+    }
+   
+   
+    .options{
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .options>h1{
+        padding: 10px 0px;
+        font-size: 25px;
+    }
+    .option-cart{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .option-one{
+       
+        padding: 8px 10px;
+      
+    }
+    
+    .option-two{
+      
+        padding: 8px 10px;
+      
+    
+    }
+    
+    .option-three{
+      
+        padding: 8px 10px;
+      
+    
+    }
+    
+    .option-four{
+      
+        padding: 8px 10px;
+       
+    
+    }
+    
+
+    
+  
+    .last-section>h1{
+        font-size: 45px;
+    }
+    .last-lan>select{
+       
+        font-size: 17px;
+        padding: 4px;
+
+    }
+    .last-list{
+        font-size: 18px;
+    }
+    .end-line{
+        font-size: 15px;
+
+    }
+    
+    
+    
+    
+}
+@media (min-width: 768px){
+
+    .main-content{
+        height: 400px;
+        
+    }
+    .hero-text>h1{
+        font-size: 55px;
+        font-weight: 600px;
+    }
+
+    .collections{
+        font-size: 21px;
+    }
+    .img-one>img{
+        height: 220px;
+    }
+    .img-two>img{
+        height: 220px;
+    }
+    .img-three>img{
+        height: 220px;
+    }
+    .img-four>img{
+        height: 220px;
+    }
+
+
+    .location{
+     
+        font-size: 17px;
+   
+    }
+    
+    .location-cart{
+        font-size: 18px;
+    }
+  
+    .form{
+    height: 1100px;
+  
+    
+    }
+   
+  
+    .text-one>h1{
+        font-size: 28px;
+    }
+    .text-one>p{
+        font-size: 18px;
+        padding: 8px 5px;
+    }
+    .email{
+    
+        height: 90px;
+    }
+    .email>input{
+  
+    font-size: 14px;
+ 
+    }
+    .email>button{
+   
+        font-size: 16px;
+    
+     
+    }
+
+    .download-btn>button{
+        font-size: 17px;
+    }
+   
+
+    .options>h1{
+        padding: 10px 0px;
+        font-size: 30px;
+    }
+    .option-cart{
+        gap: 8px;
+    }
+    .option-one{
+       
+        padding: 12px 10px;
+        font-size: 18px;
+    }
+    
+    .option-two{
+      
+        padding: 12px 10px;
+        font-size: 18px;
+    
+    }
+    
+    .option-three{
+      
+        padding: 12px 10px;
+        font-size: 18px;
+    
+    }
+    
+    .option-four{
+      
+        padding: 12px 10px;
+       font-size: 18px;
+    
+    }
+    
+  
+    .last-section>h1{
+        font-size: 48px;
+    }
+    .last-lan>select{
+       
+        font-size: 18px;
+    
+
+    }
+    .last-list{
+        font-size: 19px;
+    }
+
+    .list2{
+        flex-direction: column-reverse;
+    }
+    .end-line{
+        font-size: 15px;
+
+    }
+    
+}
+
+@media (min-width:1024px) {
+    .main-content{
+        height: 500px;
+        
+    }
+    .hero-text>h1{
+        font-size:60px;
+        font-weight: 600px;
+    }
+
+    .collections{
+        font-size: 22px;
+    }
+    .collection>p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .img-one>img{
+        height: 220px;
+    }
+    .img-two>img{
+        height: 220px;
+    }
+    .img-three>img{
+        height: 220px;
+    }
+    .img-four>img{
+        height: 220px;
+    }
+
+
+    .location{
+     
+        font-size: 20px;
+   
+    }
+    
+    .location-cart{
+        font-size: 20px;
+    }
+  
+    .form{
+    height: 1300px;
+  
+    }
+   
+    .sign-in{
+        font-size: 20px;
+    }
+    .text-one>h1{
+        font-size: 30px;
+    }
+    .text-one>p{
+        font-size: 19px;
+        padding: 8px 5px;
+    }
+    .email{
+    
+        height: 100px;
+    }
+    .email>input{
+  
+    font-size: 16px;
+ 
+    }
+    .email>button{
+   
+        font-size: 17px;
+    
+     
+    }
+
+    .download-btn>button{
+        font-size: 18px;
+           padding: 10px;
+    }
+    .search-btn>select{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .search-btn>input{
+        padding-top: 10px;
+       padding-bottom: 10px;
+    }
+
+    .options>h1{
+      
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .option-cart{
+        gap: 12px;
+    }
+    .option-one{
+        font-size: 20px;
+    }
+    
+    .option-two{
+        font-size: 20px;
+    
+    }
+    
+    .option-three{
+        font-size: 20px;
+    
+    }
+    
+    .option-four{
+       font-size: 20px;
+    
+    }
+    
+  
+    .last-section>h1{
+        font-size: 50px;
+    }
+    .last-lan>select{
+       
+        font-size: 20px;
+    
+
+    }
+    .last-list{
+        font-size: 20px;
+    }
+
+   
+    .end-line{
+        font-size: 16px;
+
+    }
+    
+
+}
+
+@media (min-width:1280px){
+
+
+    .hero-text>h1{
+        font-size:70px;
+       
+    }
+
+
+    .collections{
+        font-size: 22px;
+    }
+    .collection>p{
+        font-size: 25px;
+    }
+    
+    .location{
+     
+        font-size: 21px;
+   
+    }
+    
+    .location-cart{
+        font-size: 23px;
+    }
+  
+    .form{
+    height: 1600px;
+  
+    }
+   
+    .sign-in{
+        font-size: 24px;
+    }
+    .text-one>h1{
+        font-size: 38px;
+    }
+    .text-one>p{
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    .email{
+    
+        height: 130px;
+    }
+    .email>input{
+  
+    font-size: 18px;
+ 
+    }
+    .email>button{
+   
+        font-size: 19px;
+    
+     
+    }
+    .download>p{
+        font-size: 22px;
+    }
+
+    .download-btn>button{
+        font-size: 20px;
+     
+    }
+   
+
+    .options>h1{
+      
+        font-size: 40px;
+      
+    }
+    .option-cart{
+        gap: 12px;
+    }
+    .option-one{
+        font-size: 24px;
+    }
+    
+    .option-two{
+        font-size: 24px;
+    
+    }
+    
+    .option-three{
+        font-size: 24px;
+    
+    }
+    
+    .option-four{
+       font-size: 24px;
+    
+    }
+    
+  
+    .last-section>h1{
+        font-size: 52px;
+    }
+    .last-lan>select{
+       
+        font-size: 21px;
+    
+
+    }
+    .last-list{
+        font-size: 21px;
+    }
+
+   
+    .end-line{
+        font-size: 17px;
+
+    }
+    
+
+}
+@media (min-width:1536px) {
+
+    .nav-btn>button{
+        font-size: 20px;
+    }
+   
+    .hero-text>h1{
+        font-size: 80px;
+    }
+    .hero-text>p{
+        font-size: 25px;
+    }
+
+    .search-btn>select{
+    font-size: 25px;
+    
+    
+    }
+    .search-btn>input{
+     
+    font-size: 25px;
+    
+    }
+    
+
+    
+    .cart-one>h3{
+        font-size: 25px;
+       
+    }
+    .cart-one>p{
+        font-size: 21px;
+    }
+    
+    .cart-two>h3{
+        font-size: 25px;
+    }
+    .cart-two>p{
+        font-size: 21px;
+        
+    }
+    
+   
+    .cart-three>h3{
+        font-size: 25px;
+       
+    }
+    .cart-three>p{
+        font-size: 21px;
+       
+    }
+    
+    .collections{
+        font-size: 26px;
+       
+    }
+    .collection{
+        font-size: 20px;
+     
+    
+    }
+    
+
+ 
+    .img-one>img{
+        height: 250px;
+        padding: 10px;
+    }
+
+    .img-two>img{
+        height: 250px;
+        padding: 10px;
+    }
+    .img-three>img{
+        height: 250px;
+        padding: 10px;
+  
+    }
+
+    .img-four>img{
+        height: 250px;
+        padding: 10px;
+      
+    }
+    
+    .location{
+       
+        font-size: 25px;
+     
+    }
+    
+    .location-cart{
+    
+        font-size: 25px;
+       
+    }
+
+     .form{
+    height: 1800px;
+  
+    }
+   
+    .sign-in{
+        font-size: 24px;
+    }
+    .text-one>h1{
+        font-size: 40px;
+    }
+    .text-one>p{
+        font-size: 22px;
+        padding: 8px 5px;
+    }
+  
+   
+   
+    .email>input{
+      
+    font-size: 20px;
+   
+    }
+    .email>button{
+     
+        font-size: 23px;
+     
+      
+    }
+  
+    .download-btn>button{
+      font-size: 23px;
+    }
+    
+    
+    
+    .options>h1{
+        font-size: 33px;
+    }
+   
+
+ 
+    
+  
+    .last-section>h1{
+       
+        font-size: 50px;
+    }
+    .last-lan>select{
+      
+        font-size: 22px;
+        font-weight: 600;
+      
+    
+    }
+    .last-list{
+        font-size: 26px;
+    }
+    .end-line{
+      
+        font-size: 20px;
+      
+    }
+    
+}
+@media (min-width:2540px) {
+    
+    .nav-btn>button{
+        font-size: 20px;
+    }
+   
+    .hero-text>h1{
+        font-size: 80px;
+    }
+    .hero-text>p{
+        font-size: 25px;
+    }
+
+    .search-btn>select{
+    font-size: 25px;
+    
+    
+    }
+    .search-btn>input{
+     
+    font-size: 25px;
+    
+    }
+    
+
+    
+    .cart-one>h3{
+        font-size: 25px;
+       
+    }
+    .cart-one>p{
+        font-size: 21px;
+    }
+    
+    .cart-two>h3{
+        font-size: 25px;
+    }
+    .cart-two>p{
+        font-size: 21px;
+        
+    }
+    
+   
+    .cart-three>h3{
+        font-size: 25px;
+       
+    }
+    .cart-three>p{
+        font-size: 21px;
+       
+    }
+    
+    .collections{
+        font-size: 26px;
+       
+    }
+    .collection{
+        font-size: 20px;
+     
+    
+    }
+    
+
+ 
+    .img-one>img{
+        height: 250px;
+        padding: 10px;
+    }
+
+    .img-two>img{
+        height: 250px;
+        padding: 10px;
+    }
+    .img-three>img{
+        height: 250px;
+        padding: 10px;
+  
+    }
+
+    .img-four>img{
+        height: 250px;
+        padding: 10px;
+      
+    }
+    
+    .location{
+       
+        font-size: 25px;
+     
+    }
+    
+    .location-cart{
+    
+        font-size: 25px;
+       
+    }
+
+     .form{
+    height: 3000px;
+  
+    }
+   
+    .sign-in{
+        font-size: 35px;
+    }
+    .text-one>h1{
+        font-size: 60px;
+    }
+    .text-one>p{
+        font-size: 35px;
+        padding: 8px 5px;
+    }
+  
+   
+   
+    .email>input{
+      
+    font-size: 37px;
+    height: 100px;
+   
+    }
+    .email>button{
+     
+        font-size: 36px;
+     
+      
+    }
+  .download>p{
+    font-size: 35px;
+  }
+    .download-btn>button{
+      font-size: 35px;
+    }
+    
+    
+    
+    .options>h1{
+        font-size: 53px;
+    }
+
+   
+    .option-one{
+       
+        padding: 15px 10px;
+        font-size: 38px;
+    }
+    
+    .option-two{
+      
+        padding: 15px 10px;
+        font-size: 38px;
+    
+    }
+    
+    .option-three{
+      
+        padding: 15px 10px;
+        font-size: 38px;
+    
+    }
+    
+    .option-four{
+      
+        padding: 15px 10px;
+       font-size: 38px;
+    
+    }
+    
+ 
+    
+  
+    .last-section>h1{
+       
+        font-size: 90px;
+    }
+    .last-lan>select{
+      
+        font-size: 35px;
+  
+      
+    
+    }
+    .last-list{
+        font-size: 38px;
+    }
+    .end-line{
+      
+        font-size: 32px;
+      
+    }
+ 
+
+}
