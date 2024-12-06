@@ -21,7 +21,7 @@ html{
 }
 .hero-section{
     height: 100%;
-    background-image: url('assets/zomato.\ bg.avif');
+    background-image: url('zomato.\ bg.avif');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -316,7 +316,7 @@ flex-direction: column;
 .form-img{
     height: 50%;
     width: 80%;
-    background-image: url('assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.avif');
+    background-image: url('ce5bc038a8a2d4f8f24465c8826182af1726501431.avif');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
